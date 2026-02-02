@@ -123,7 +123,7 @@ const Hero = () => {
               repeat: Infinity,
               ease: "easeInOut"
             }} className="relative">
-                <img className="w-full max-w-md mx-auto drop-shadow-2xl rounded-lg" alt="Manual Bitcoin Estoico - Capa do Ebook" src="/Capa-Manual-Bitcoin-Estoico.png"/>
+                <img className="w-full max-w-md mx-auto drop-shadow-2xl rounded-lg" alt="Manual Bitcoin Estoico - Capa do Ebook" src="/Capa-Manual-Bitcoin-Estoico.png" loading="eager" fetchpriority="high"/>
                 <div className="absolute -inset-4 bg-gradient-to-r from-yellow-400/20 to-amber-400/20 blur-3xl -z-10"></div>
               </motion.div>
             </div>
