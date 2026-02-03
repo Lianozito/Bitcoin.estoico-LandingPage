@@ -49,11 +49,11 @@ const CTA = () => {
             <Button
               onClick={handleDownload}
               size="lg"
-              className="bg-[#c9a227] hover:bg-[#b38f22] text-white px-12 py-8 text-xl rounded-2xl shadow-2xl hover:shadow-[#c9a227]/50 transition-all group"
+              className="bg-[#c9a227] hover:bg-[#b38f22] text-white px-6 sm:px-12 py-6 sm:py-8 text-lg sm:text-xl rounded-2xl shadow-2xl hover:shadow-[#c9a227]/50 transition-all group"
             >
-              <Download className="mr-3 group-hover:animate-bounce" size={28} />
+              <Download className="mr-2 sm:mr-3 w-6 h-6 sm:w-7 sm:h-7 group-hover:animate-bounce" />
               Baixar Agora — Download Imediato
-              <ArrowRight className="ml-3 group-hover:translate-x-2 transition-transform" size={28} />
+              <ArrowRight className="ml-2 sm:ml-3 w-6 h-6 sm:w-7 sm:h-7 group-hover:translate-x-2 transition-transform" />
             </Button>
           </motion.div>
 
